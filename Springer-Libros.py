@@ -21,7 +21,7 @@ def foo(m):
 
     res =http.request('GET',n)    
 
-    title=res.data.decode('utf-8').split('h1')[1].split('>')[1].split('<')[0]+".pdf"
+    title=''.join(res.data.decode('utf-8').split('h1')[1].split('>')[1].split('<')[0].split('/')[0])+".pdf"
 
     uld="http://link.springer.com/content/"+res.data.decode('utf-8').split('Download book PDF')[0].split('content/')[1].split('title')[0].split('.pdf')[0]+".pdf"
 
