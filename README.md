@@ -10,11 +10,20 @@ Baja los dos archivos dentro de una carpeta:
 Springer-Libros.py
 Spring.pdf
 
+Se necesitan 3 librerias previas PyPDF2, urllib3 y wget: 
+
+pip install PyPDF2
+pip install urllib3
+pip install wget
+
 Para ejecutarlo solo aplica: 
 
 python Springer-Libros.py
 
 Y LISTO :)
+
+
+
 
 Escribe carlos@cardenas.pe
 ====================================================
