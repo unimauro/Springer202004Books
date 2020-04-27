@@ -12,9 +12,13 @@ Spring.pdf
 
 Se necesitan 3 librerias previas PyPDF2, urllib3 y wget: 
 
-pip install PyPDF2
-pip install urllib3
-pip install wget
+$ pip install PyPDF2
+
+$ pip install urllib3
+
+$ pip install wget
+
+Esta basado en Python 3.7 pero funciona para 3.8
 
 Para ejecutarlo solo aplica: 
 
