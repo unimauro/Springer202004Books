@@ -36,12 +36,19 @@ def process_books_in_pdf(pdf):
     for i in range(0, pdf.numPages):
         lines = pdf.getPage(i).extractText().split('\n')
 
-        for i in range(len(lines)):
+        i = 0
+        no_of_lines = len(lines)
+        while i < no_of_lines:
             if lines[i].startswith("http://"):
                 # changing protocol from http to https
                 url = "https://"+lines[i][7:]
                 print(url)
-                download_book_from_page(url)
+                try:
+                    download_book_from_page(url)
+                except:
+                    print("Error while downloading, trying again.")
+                    continue
+            i += 1
 
 
 def main():
