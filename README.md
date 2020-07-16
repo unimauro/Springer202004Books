@@ -31,13 +31,9 @@ Y LISTO :)
 
 
 Escribe carlos@cardenas.pe
-Unimauro
+twitter: @unimauro
 ====================================================
 
 20200427
 Mejorando un poco el Còdigo
-
-carlos@cardenas.pe
-@unimauro
-
 ====================================================
