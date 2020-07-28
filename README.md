@@ -1,6 +1,5 @@
 # Springer202004Books
 
-No solution
 Free Books For Springer. 
 
 Work in Linux and Windows
