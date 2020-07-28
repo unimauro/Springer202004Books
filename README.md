@@ -2,7 +2,7 @@
 
 No solution
 Free Books For Springer. 
-Ase ng
+
 Work in Linux and Windows
 
 This repository if for scrapping the book released by Springe.
