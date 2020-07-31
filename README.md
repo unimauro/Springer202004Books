@@ -1,10 +1,6 @@
 # Springer202004Books
 
-Libros free
-Libros free
-Libros free
-Libros free
-Libros free
+
 Free Books For Springer. 
 
 Work in Linux and Windows
