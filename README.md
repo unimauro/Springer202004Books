@@ -46,5 +46,3 @@ Y LISTO :)
 20200427
 Mejorando un poco el Còdigo
 ====================================================
-ok
-Verificando
